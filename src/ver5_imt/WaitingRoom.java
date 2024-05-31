@@ -54,6 +54,7 @@ public class WaitingRoom extends JFrame {
 	private JList<String> roomList;
 	private JList<String> userList;
 	private JTextField roomFinder;
+	JLabel hi;
 
 	private final int LOGIN_SIZE = 17;
 
@@ -94,6 +95,7 @@ public class WaitingRoom extends JFrame {
 		enterRoomBt_Press = new JLabel(new ImageIcon("image/대기/roomInPress.jpg"));
 		searchBt = new JLabel(new ImageIcon("image/대기/search.png"));
 		roomFinder = new JTextField();
+		hi = new JLabel(new ImageIcon("image/hi.gif"));
 		setSize(600, 740);
 		setContentPane(backGround);
 
@@ -130,6 +132,10 @@ public class WaitingRoom extends JFrame {
 
 		roomList.setBounds(17, 136, 551, 300);
 		add(roomList);
+		
+		add(hi);
+		hi.setSize(92,92);
+		hi.setLocation(480,0);
 		//roomList.setLocation(0, 5);
 		//loomlistIg.add(roomList);
 		//loomlistIg.setBounds(17, 130, 551, 300);

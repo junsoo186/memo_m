@@ -23,7 +23,7 @@ public class ChattingRoom extends JFrame {
 	JLabel background;
 	JLabel setting;
 	HideMemo hideMemo;
-
+	
 	private final int LOGIN_SIZE = 17;
 	private JTextArea mainMessageBox;
 	JTextField textWrite;
@@ -41,6 +41,7 @@ public class ChattingRoom extends JFrame {
 	private void initData() {
 		background = new JLabel(new ImageIcon("image/메모장.png"));
 		setting = new JLabel(new ImageIcon("image/톱니 바퀴.png"));
+		
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		textWrite = new JTextField(20);
@@ -78,6 +79,7 @@ public class ChattingRoom extends JFrame {
 		textWrite.setLocation(0, 650);
 		textWrite.setBorder(null);
 		add(textWrite);
+		
 
 	}
 
