@@ -135,7 +135,7 @@ public class WaitingRoom extends JFrame {
 		
 		add(hi);
 		hi.setSize(92,92);
-		hi.setLocation(480,0);
+		hi.setLocation(30,-11);
 		//roomList.setLocation(0, 5);
 		//loomlistIg.add(roomList);
 		//loomlistIg.setBounds(17, 130, 551, 300);
